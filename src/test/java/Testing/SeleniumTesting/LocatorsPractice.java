@@ -39,7 +39,7 @@ public class LocatorsPractice {
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[normalize-space()='Forgot password']")));
 				driver.findElement(By.xpath("//input[@placeholder='Name']")).sendKeys("vijay");
 				driver.findElement(By.xpath("//input[@placeholder='Email']")).sendKeys("vijays2k18@gmail.com");
-				driver.findElement(By.xpath("//input[@placeholder='Phone Number']")).sendKeys("7604802468");
+				driver.findElement(By.xpath("//input[@placeholder='Phone Number']")).sendKeys("8080808080");
 				driver.findElement(By.xpath("//button[normalize-space()='Reset Login']")).click();
 				String fullText = driver.findElement(By.xpath("//p[@class='infoMsg']")).getText();
 				String actualPassword = fullText.split("'")[1].trim();
