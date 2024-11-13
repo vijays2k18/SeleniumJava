@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-13T12:10:44 IST" name="Default suite" finished-at="2024-11-13T12:10:47 IST" duration-ms="2911">
+  <suite started-at="2024-11-13T12:31:41 IST" name="Default suite" finished-at="2024-11-13T12:31:44 IST" duration-ms="3130">
     <groups>
     </groups>
-    <test started-at="2024-11-13T12:10:44 IST" name="Default test" finished-at="2024-11-13T12:10:47 IST" duration-ms="2911">
-      <class name="Testing.SeleniumTesting.Testing_SSL_HTTP">
-        <test-method signature="run()[pri:0, instance:Testing.SeleniumTesting.Testing_SSL_HTTP@6b2ea799]" started-at="2024-11-13T12:10:44 IST" name="run" finished-at="2024-11-13T12:10:47 IST" duration-ms="2868" status="PASS">
+    <test started-at="2024-11-13T12:31:41 IST" name="Default test" finished-at="2024-11-13T12:31:44 IST" duration-ms="3130">
+      <class name="Testing.SeleniumTesting.MaximizeWindow_DeleteCookies">
+        <test-method signature="run()[pri:0, instance:Testing.SeleniumTesting.MaximizeWindow_DeleteCookies@6b2ea799]" started-at="2024-11-13T12:31:41 IST" name="run" finished-at="2024-11-13T12:31:44 IST" duration-ms="3091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
-      </class> <!-- Testing.SeleniumTesting.Testing_SSL_HTTP -->
+      </class> <!-- Testing.SeleniumTesting.MaximizeWindow_DeleteCookies -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
