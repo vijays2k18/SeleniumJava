@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-13T12:31:41 IST" name="Default suite" finished-at="2024-11-13T12:31:44 IST" duration-ms="3130">
+  <suite started-at="2024-11-13T14:29:20 IST" name="Default suite" finished-at="2024-11-13T14:29:24 IST" duration-ms="3852">
     <groups>
     </groups>
-    <test started-at="2024-11-13T12:31:41 IST" name="Default test" finished-at="2024-11-13T12:31:44 IST" duration-ms="3130">
-      <class name="Testing.SeleniumTesting.MaximizeWindow_DeleteCookies">
-        <test-method signature="run()[pri:0, instance:Testing.SeleniumTesting.MaximizeWindow_DeleteCookies@6b2ea799]" started-at="2024-11-13T12:31:41 IST" name="run" finished-at="2024-11-13T12:31:44 IST" duration-ms="3091" status="PASS">
+    <test started-at="2024-11-13T14:29:20 IST" name="Default test" finished-at="2024-11-13T14:29:24 IST" duration-ms="3852">
+      <class name="Testing.SeleniumTesting.Screenshot">
+        <test-method signature="demo()[pri:0, instance:Testing.SeleniumTesting.Screenshot@411f53a0]" started-at="2024-11-13T14:29:20 IST" name="demo" finished-at="2024-11-13T14:29:24 IST" duration-ms="3815" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- run -->
-      </class> <!-- Testing.SeleniumTesting.MaximizeWindow_DeleteCookies -->
+        </test-method> <!-- demo -->
+      </class> <!-- Testing.SeleniumTesting.Screenshot -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
