@@ -21,7 +21,7 @@ public class Screenshot {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
 		
-		// Screenshot Code
+		// Screenshot Code C:\\Users\\ADMIN\\Desktop\\Screenshot\\output.jpg
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src, new File("C:\\Users\\ADMIN\\Desktop\\Screenshot\\output.jpg"));
 	}

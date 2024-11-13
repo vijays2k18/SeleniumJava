@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testing.SeleniumTesting.LinksTags">
+      <class name="Testing.SeleniumTesting.BrokenLinks">
         <methods>
           <include name="run"/>
         </methods>
-      </class> <!-- Testing.SeleniumTesting.LinksTags -->
+      </class> <!-- Testing.SeleniumTesting.BrokenLinks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
