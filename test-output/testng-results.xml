@@ -1,59 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-14T14:47:54 IST" name="Suite" finished-at="2024-11-14T14:47:54 IST" duration-ms="133">
+  <suite started-at="2024-11-14T15:18:48 IST" name="Suite" finished-at="2024-11-14T15:18:48 IST" duration-ms="123">
     <groups>
     </groups>
-    <test started-at="2024-11-14T14:47:54 IST" name="Personal_Loan" finished-at="2024-11-14T14:47:54 IST" duration-ms="55">
+    <test started-at="2024-11-14T15:18:48 IST" name="Personal_Loan" finished-at="2024-11-14T15:18:48 IST" duration-ms="50">
       <class name="TestNGBasics.day1">
-        <test-method signature="demo()[pri:0, instance:TestNGBasics.day1@30c15d8b]" started-at="2024-11-14T14:47:54 IST" name="demo" finished-at="2024-11-14T14:47:54 IST" duration-ms="9" status="PASS">
+        <test-method signature="demo()[pri:0, instance:TestNGBasics.day1@30c15d8b]" started-at="2024-11-14T15:18:48 IST" name="demo" finished-at="2024-11-14T15:18:48 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
-        <test-method signature="demo1()[pri:0, instance:TestNGBasics.day1@30c15d8b]" started-at="2024-11-14T14:47:54 IST" name="demo1" finished-at="2024-11-14T14:47:54 IST" duration-ms="1" status="PASS">
+        <test-method signature="demo1()[pri:0, instance:TestNGBasics.day1@30c15d8b]" started-at="2024-11-14T15:18:48 IST" name="demo1" finished-at="2024-11-14T15:18:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo1 -->
       </class> <!-- TestNGBasics.day1 -->
-      <class name="TestNGBasics.day2">
-        <test-method signature="demo()[pri:0, instance:TestNGBasics.day2@28701274]" started-at="2024-11-14T14:47:54 IST" name="demo" finished-at="2024-11-14T14:47:54 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo -->
-        <test-method signature="demo1()[pri:0, instance:TestNGBasics.day2@28701274]" started-at="2024-11-14T14:47:54 IST" name="demo1" finished-at="2024-11-14T14:47:54 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo1 -->
-      </class> <!-- TestNGBasics.day2 -->
     </test> <!-- Personal_Loan -->
-    <test started-at="2024-11-14T14:47:54 IST" name="Car_Loan" finished-at="2024-11-14T14:47:54 IST" duration-ms="7">
+    <test started-at="2024-11-14T15:18:48 IST" name="Car_Loan" finished-at="2024-11-14T15:18:48 IST" duration-ms="6">
       <class name="TestNGBasics.day3">
-        <test-method signature="APILoginCarLoan()[pri:0, instance:TestNGBasics.day3@510f3d34]" started-at="2024-11-14T14:47:54 IST" name="APILoginCarLoan" finished-at="2024-11-14T14:47:54 IST" duration-ms="1" status="PASS">
+        <test-method signature="APILoginCarLoan()[pri:0, instance:TestNGBasics.day3@fa4c865]" started-at="2024-11-14T15:18:48 IST" name="APILoginCarLoan" finished-at="2024-11-14T15:18:48 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- APILoginCarLoan -->
-        <test-method signature="MobileLoginCarLoan()[pri:0, instance:TestNGBasics.day3@510f3d34]" started-at="2024-11-14T14:47:54 IST" name="MobileLoginCarLoan" finished-at="2024-11-14T14:47:54 IST" duration-ms="1" status="PASS">
+        <test-method signature="MobileLoginCarLoan()[pri:0, instance:TestNGBasics.day3@fa4c865]" started-at="2024-11-14T15:18:48 IST" name="MobileLoginCarLoan" finished-at="2024-11-14T15:18:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLoginCarLoan -->
-        <test-method signature="WebLoginCarLoan()[pri:0, instance:TestNGBasics.day3@510f3d34]" started-at="2024-11-14T14:47:54 IST" name="WebLoginCarLoan" finished-at="2024-11-14T14:47:54 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginCarLoan -->
       </class> <!-- TestNGBasics.day3 -->
     </test> <!-- Car_Loan -->
-    <test started-at="2024-11-14T14:47:54 IST" name="Home_Loan" finished-at="2024-11-14T14:47:54 IST" duration-ms="6">
+    <test started-at="2024-11-14T15:18:48 IST" name="Home_Loan" finished-at="2024-11-14T15:18:48 IST" duration-ms="8">
       <class name="TestNGBasics.day4">
-        <test-method signature="APILoginHomeLoan()[pri:0, instance:TestNGBasics.day4@fa4c865]" started-at="2024-11-14T14:47:54 IST" name="APILoginHomeLoan" finished-at="2024-11-14T14:47:54 IST" duration-ms="1" status="PASS">
+        <test-method signature="APILoginHomeLoan()[pri:0, instance:TestNGBasics.day4@5e5d171f]" started-at="2024-11-14T15:18:48 IST" name="APILoginHomeLoan" finished-at="2024-11-14T15:18:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- APILoginHomeLoan -->
-        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:TestNGBasics.day4@fa4c865]" started-at="2024-11-14T14:47:54 IST" name="MobileLoginHomeLoan" finished-at="2024-11-14T14:47:54 IST" duration-ms="1" status="PASS">
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:TestNGBasics.day4@5e5d171f]" started-at="2024-11-14T15:18:48 IST" name="MobileLoginHomeLoan" finished-at="2024-11-14T15:18:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MobileLoginHomeLoan -->
-        <test-method signature="WebLoginHomeLoan()[pri:0, instance:TestNGBasics.day4@fa4c865]" started-at="2024-11-14T14:47:54 IST" name="WebLoginHomeLoan" finished-at="2024-11-14T14:47:54 IST" duration-ms="0" status="PASS">
+        <test-method signature="WebLoginHomeLoan()[pri:0, instance:TestNGBasics.day4@5e5d171f]" started-at="2024-11-14T15:18:48 IST" name="WebLoginHomeLoan" finished-at="2024-11-14T15:18:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebLoginHomeLoan -->

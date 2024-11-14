@@ -4,13 +4,23 @@
   <test thread-count="5" name="Personal_Loan">
     <classes>
       <class name="TestNGBasics.day1"/>
-           <class name="TestNGBasics.day2"/>
+           <class name="TestNGBasics.day2">
+			   <methods>
+				   <exclude name="demo"></exclude>
+				   <exclude name="demo1"></exclude>
+			   </methods>
+			    </class>
+            <class name="TestNGBasics.day1"/>
     </classes>
   </test> <!-- Test -->
   	
   	<test thread-count="5" name="Car_Loan">
 		  <classes>
-			  <class name="TestNGBasics.day3"/>
+			  <class name="TestNGBasics.day3"> 
+				  <methods>
+					  <exclude name="WebLoginCarLoan"></exclude>
+				  </methods>
+			  </class>
 		  </classes>
 	  </test>
 	  
