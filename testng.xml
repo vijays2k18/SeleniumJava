@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Testing.SeleniumTesting.DropdownPractise"/>
+      <class name="Testing.SeleniumTesting.WindowsHandling"/>
+      <class name="TestNGBasics.Running_Testcases_TestNG1"/>
+      <class name="Testing.SeleniumTesting.BrokenLinks"/>
+      <class name="Testing.SeleniumTesting.Testing_SSL_HTTP"/>
+      <class name="Testing.SeleniumTesting.Screenshot"/>
+      <class name="Testing.SeleniumTesting.RelativeLocators"/>
+      <class name="Testing.SeleniumTesting.LocatorsPractice"/>
+      <class name="Testing.SeleniumTesting.AddtoProduct"/>
+      <class name="Testing.SeleniumTesting.FramesConcept"/>
+      <class name="Testing.SeleniumTesting.LinksTags"/>
+      <class name="Testing.SeleniumTesting.AjaxMovement"/>
+      <class name="Testing.SeleniumTesting.MultipleWindows"/>
+      <class name="Testing.SeleniumTesting.MaximizeWindow_DeleteCookies"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
