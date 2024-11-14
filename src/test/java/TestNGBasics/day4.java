@@ -1,5 +1,6 @@
 package TestNGBasics;
 
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class day4 {
@@ -14,7 +15,7 @@ public class day4 {
 	public void MobileLoginHomeLoan() {
 		System.out.println("MobileLoginHomeLoan");
 	}
-	@Test
+	@BeforeSuite
 	public void APILoginHomeLoan() {
 		System.out.println("APILoginHomeLoan");
 	}

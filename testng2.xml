@@ -5,11 +5,7 @@
     <classes>
       <class name="TestNGBasics.day1"/>
            <class name="TestNGBasics.day2">
-			   <methods>
-				   <exclude name="demo"></exclude>
-				   <exclude name="demo1"></exclude>
-			   </methods>
-			    </class>
+			   </class>
             <class name="TestNGBasics.day1"/>
     </classes>
   </test> <!-- Test -->

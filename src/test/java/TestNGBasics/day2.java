@@ -1,10 +1,22 @@
 package TestNGBasics;
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class day2 {
 	
 	
+	@BeforeClass
+	public void before() {
+		System.out.println("Before Class day2");
+	}
+	
+	
+	@AfterClass
+	public void after() {
+		System.out.println("after Class day2");
+	}
 	
 	@Test
 	public void demo()
