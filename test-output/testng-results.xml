@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-15T12:59:21 IST" name="Default suite" finished-at="2024-11-15T12:59:52 IST" duration-ms="31126">
+  <suite started-at="2024-11-15T16:23:38 IST" name="Default suite" finished-at="2024-11-15T16:24:10 IST" duration-ms="31685">
     <groups>
     </groups>
-    <test started-at="2024-11-15T12:59:21 IST" name="Default test" finished-at="2024-11-15T12:59:52 IST" duration-ms="31126">
-      <class name="MavenConcept.Samplelogic">
-        <test-method signature="demo()[pri:0, instance:MavenConcept.Samplelogic@411f53a0]" started-at="2024-11-15T12:59:21 IST" name="demo" finished-at="2024-11-15T12:59:52 IST" duration-ms="31090" status="PASS">
+    <test started-at="2024-11-15T16:23:38 IST" name="Default test" finished-at="2024-11-15T16:24:10 IST" duration-ms="31685">
+      <class name="PageObjectModel.Samplelogic">
+        <test-method signature="demo()[pri:0, instance:PageObjectModel.Samplelogic@411f53a0]" started-at="2024-11-15T16:23:38 IST" name="demo" finished-at="2024-11-15T16:24:10 IST" duration-ms="31647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
-      </class> <!-- MavenConcept.Samplelogic -->
+      </class> <!-- PageObjectModel.Samplelogic -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

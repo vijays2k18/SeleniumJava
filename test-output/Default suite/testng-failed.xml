@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MavenConcept.Samplelogic">
+      <class name="PageObjectModel.Samplelogic">
         <methods>
           <include name="demo"/>
         </methods>
-      </class> <!-- MavenConcept.Samplelogic -->
+      </class> <!-- PageObjectModel.Samplelogic -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
