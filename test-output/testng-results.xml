@@ -1,28 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-14T17:08:32 IST" name="Default suite" finished-at="2024-11-14T17:08:32 IST" duration-ms="55">
+  <suite started-at="2024-11-15T12:59:21 IST" name="Default suite" finished-at="2024-11-15T12:59:52 IST" duration-ms="31126">
     <groups>
-      <group name="Smoke">
-        <method signature="GroupConcept1.MobileLoginHomeLoan()[pri:0, instance:TestNGBasics.GroupConcept1@30c15d8b]" name="MobileLoginHomeLoan" class="TestNGBasics.GroupConcept1"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-11-14T17:08:32 IST" name="Default test" finished-at="2024-11-14T17:08:32 IST" duration-ms="55">
-      <class name="TestNGBasics.GroupConcept1">
-        <test-method signature="APILoginHomeLoan()[pri:0, instance:TestNGBasics.GroupConcept1@30c15d8b]" started-at="2024-11-14T17:08:32 IST" name="APILoginHomeLoan" finished-at="2024-11-14T17:08:32 IST" duration-ms="9" status="PASS">
+    <test started-at="2024-11-15T12:59:21 IST" name="Default test" finished-at="2024-11-15T12:59:52 IST" duration-ms="31126">
+      <class name="MavenConcept.Samplelogic">
+        <test-method signature="demo()[pri:0, instance:MavenConcept.Samplelogic@411f53a0]" started-at="2024-11-15T12:59:21 IST" name="demo" finished-at="2024-11-15T12:59:52 IST" duration-ms="31090" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- APILoginHomeLoan -->
-        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:TestNGBasics.GroupConcept1@30c15d8b]" started-at="2024-11-14T17:08:32 IST" name="MobileLoginHomeLoan" finished-at="2024-11-14T17:08:32 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginHomeLoan -->
-        <test-method signature="WebLoginHomeLoan()[pri:0, instance:TestNGBasics.GroupConcept1@30c15d8b]" started-at="2024-11-14T17:08:32 IST" name="WebLoginHomeLoan" finished-at="2024-11-14T17:08:32 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebLoginHomeLoan -->
-      </class> <!-- TestNGBasics.GroupConcept1 -->
+        </test-method> <!-- demo -->
+      </class> <!-- MavenConcept.Samplelogic -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testing.SeleniumTesting.RelativeLocators">
+      <class name="MavenConcept.Samplelogic">
         <methods>
           <include name="demo"/>
         </methods>
-      </class> <!-- Testing.SeleniumTesting.RelativeLocators -->
+      </class> <!-- MavenConcept.Samplelogic -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
