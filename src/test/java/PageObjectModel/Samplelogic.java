@@ -101,7 +101,8 @@ public class Samplelogic {
 	     CardDetails cardpage = new CardDetails(driver);
 	     cardpage.cardDetails("423", "India");
 	    driver.findElement(By.xpath("(//input[@type='text'])[3]")).sendKeys("visa");
-		     Thread.sleep(2000);
+	 
+	     Thread.sleep(2000);
 	     List<WebElement> options =driver.findElements(By.cssSelector(".ta-results.list-group.ng-star-inserted button"));
 	     
 	     for(WebElement option:options) {
