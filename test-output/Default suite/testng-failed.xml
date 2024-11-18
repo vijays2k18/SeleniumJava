@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testing.SeleniumTesting.ExtentReporters">
+      <class name="Database_Connection.Database">
         <methods>
           <include name="run"/>
-          <include name="before"/>
         </methods>
-      </class> <!-- Testing.SeleniumTesting.ExtentReporters -->
+      </class> <!-- Database_Connection.Database -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
