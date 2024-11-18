@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Database_Connection.Database">
+      <class name="Database_Connection.Database_SelectAll">
         <methods>
           <include name="run"/>
         </methods>
-      </class> <!-- Database_Connection.Database -->
+      </class> <!-- Database_Connection.Database_SelectAll -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
